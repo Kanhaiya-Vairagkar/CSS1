@@ -1,0 +1,35 @@
+.ka{
+    border: 1px solid red;
+    height: 500px;
+    width: 300px;
+    margin-left: 550px;
+    margin-top: 5%;
+    background-color: aquamarine;
+}
+.na{
+    border: 1px solid red;
+    height: 400px;
+    width: 190px;
+    margin-left:55px;
+    margin-top: 44px;
+    position: center;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: azure;
+    border-color: brown;
+}
+.la{
+    border: 1px solid red;
+    height: 200px;
+    width: 90px;
+    margin-left:46px;
+    margin-top: 65px;
+    position: center;
+    border: 10px double black;
+    border-radius: 10px;
+    background-color: azure;
+    border-color: brown;
+    position: center;
+    background-position: cover;
+    background-image: url("https://imgs.search.brave.com/fJVLssLA6dF4fNWrCo-Cf4zuDo23S4CATqEprUAGVPA/rs:fit:1079:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzlkLzRm/LzVkLzlkNGY1ZGE3/OTNiM2M4YzJmMzg4/ZmViZjAzYjIzYzVk/LmpwZw");
+}

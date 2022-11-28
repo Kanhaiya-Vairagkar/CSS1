@@ -1,0 +1,17 @@
+#pa{
+    border: 2px solid red;
+    text-align: center;
+    text-decoration: darkblue;
+    margin-left: 0px;
+    background-color: bisque;
+    
+}
+#la{
+    text-align: center;
+    font-size: larger;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    size: 10px;
+    size: 50px;
+    text-shadow: coral;
+}

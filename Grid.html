@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            background: #eee;
+            width: 700px;
+            margin: 70px 0 0 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr ;
+            /* grid-area: 5px;
+            grid-template-areas: 10px;
+            /* grid-gap: 15px; */
+            /* grid-column-gap: 45px; */
+            grid-gap: 15px;
+            /* grid-row-gap: 2px; */
+        }
+
+        .item {
+            color: rgb(255, 252, 255);
+            text-align: center;
+            font-size: 145px;
+            font-weight: 1000;
+        }
+
+        .item1 {
+            background: red;
+            grid-row-start: 2;
+            grid-row-end: 3;
+           
+        }
+
+        .item2 {
+            background: rgb(85, 189, 80);
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .item3 {
+            background: rgb(25, 0, 250);
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+
+        }
+
+        .item4 {
+            background: rgb(251, 2, 255);
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .item5 {
+            background: rgb(199, 249, 2);
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .item6 {
+            background: rgb(0, 0, 0);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1> CSS Gride </h1>
+
+    <div class="container">
+
+        <div class="item item1">First</div>
+        <div class="item item2">Second</div>
+        <div class="item item3">Third</div>
+        <div class="item item4">Fourth</div>
+        <div class="item item5">Fifth</div>
+        <div class="item item6">Sixth</div>
+
+    </div>
+
+</body>
+
+</html>

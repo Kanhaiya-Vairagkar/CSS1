@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: blue;
+            text-align: center;
+            color: white;
+            display: block;
+            /* font-size: xx-large; */
+            display: none;
+            height: 450px;
+        }
+
+        @media (max-width:1000px) {
+            #box1 {
+                display: block;
+                color: black;
+                background-color: aquamarine;
+                
+            }
+
+        }
+
+        @media(min-width:1001px) and (max-width:1700px) {
+            #box2 {
+                display: block;
+                color: cadetblue;
+                background-color: rgb(0, 0, 0);
+
+            }
+        }
+
+        @media(min-width:1701px) and (max-width:2700px) {
+            #box3 {
+                display: block;
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 204, 0);
+
+            }
+        }
+
+        @media(min-width:2701px) and (max-width:3700px) {
+            #box4 {
+                display: block;
+                color: cyan;
+                background-color: rgb(0, 102, 255);
+            }
+        }
+        @media(min-width:3000px) and (max-width:3700px) {
+            #box4 {
+                display: block;
+                color: yellow;
+                background-color: rgb(0, 0, 0);
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1"><h1>Mai ek Iphone hu</h1></div><br>
+
+    <div class="box" id="box2"><h1>Mai ek Tablet hu</h1></div> <br>
+    <div class="box" id="box3"><h1>Mai ek compute hu</h1></div> <br>
+    <div class="box" id="box4"><h1>Mai ek bda computer hu</h1></div> <br>
+</body>
+
+</html>

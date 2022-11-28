@@ -1,0 +1,58 @@
+#parent{
+    height: 400px;
+    width: 300px;
+    border:1px solid blueviolet;
+    /* margin: 0 auto; */
+    border-radius:20px ;
+    margin-top:50px ;
+    margin-left:40px ;
+    box-shadow:7px 7x 7px  rgb(225, 0, 0);
+    background-color: #333;
+}
+input{
+    border-radius: 20px;
+    height:30px;
+    box-shadow:5px 5px 3px #333 ;
+
+}
+label{
+    font-size:25px;
+    color: white;
+    text-shadow:0px 2px 2px ;
+    text-shadow: rebeccapurple;
+}
+
+#main{
+    height: 500px;
+    width: 380px;
+    border:1px solid;
+    /* border-radius:20px ; */
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin:0 auto ;
+    margin-top: 70px;
+    background-color: rebeccapurple;
+}
+#child1{
+    margin-top:70px ;
+    margin-left:12%;
+}
+#child2{
+    margin-top:30px ;
+    margin-left:12%;
+}
+#child3{
+    margin-top:30px ;
+    margin-left:12%;
+}
+#child4{
+    margin-top:30px;
+}
+input[type="submit"]{
+    width:80px ;
+    margin-left: 160px;
+    height: 40px;
+    border-radius:20px ;
+    color: red;
+    background-color: aquamarine;
+}

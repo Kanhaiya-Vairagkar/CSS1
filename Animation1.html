@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 580px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            display: flex;
+           justify-content: center;
+            align-items: center;
+            animation-name: widthAnimate;
+            /* animation-name: widthAnimate1; */
+            animation-duration: 0.8s;
+            /* animation-delay: 0.5s; */
+            animation-iteration-count:infinite;
+            animation-direction: alternate-reverse;
+        }
+        .box1 {
+            width: 200px;
+           
+            background-color: rgb(250, 0, 129);
+            display: flex;
+           
+            /* animation-name: widthAnimate; */
+            animation-name: widthAnimate1;
+            animation-duration: 1s;
+            height: 200px;
+            /* animation-delay: 0.5s; */
+            animation-iteration-count:infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes widthAnimate {
+            from {
+                width: 300px;
+                height: 300px;
+            }
+
+            to {
+                width: 600px;
+                height: 600px;
+            }
+        }
+
+        @keyframes widthAnimate1 {
+            from {
+                width: 300px;
+         
+            }
+
+            to {
+                width: 600px;
+                height: 400px;
+               
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Kanhaiay vairagkar
+
+        </div>
+        <div class="box1">KV_Group</div>
+    </div>
+</body>
+
+</html>
